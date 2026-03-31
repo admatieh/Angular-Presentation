@@ -1,4 +1,4 @@
-# Angular
+# Angular Framework
 A practical intro to the framework for modern web apps
 
 ---
