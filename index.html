@@ -11,79 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" id="theme" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/monokai.css" />
 
-  <style>
-    :root {
-      --r-main-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      --r-heading-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      --r-heading-text-transform: none;
-      --r-link-color: #dd0031;
-      --r-link-color-hover: #ff4d6d;
-    }
-
-    .reveal .slides {
-      text-align: left;
-    }
-
-    .reveal h1,
-    .reveal h2,
-    .reveal h3 {
-      color: #ffffff;
-      letter-spacing: -0.02em;
-    }
-
-    .reveal .muted {
-      color: #b4b4b4;
-    }
-
-    .reveal .accent {
-      color: #dd0031;
-    }
-
-    .reveal .two-col {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 32px;
-      align-items: center;
-    }
-
-    .reveal .card {
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: 18px;
-      padding: 22px;
-      background: rgba(255, 255, 255, 0.04);
-    }
-
-    .reveal ul li,
-    .reveal ol li {
-      margin: 0.35em 0;
-    }
-
-    .reveal code {
-      border-radius: 10px;
-      padding: 0.1em 0.25em;
-    }
-
-    .reveal pre code {
-      max-height: 520px;
-      border-radius: 18px;
-      padding: 20px;
-    }
-
-    .footer-note {
-      position: fixed;
-      bottom: 16px;
-      right: 24px;
-      font-size: 14px;
-      color: rgba(255, 255, 255, 0.5);
-      z-index: 20;
-    }
-
-    @media (max-width: 900px) {
-      .reveal .two-col {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -100,14 +28,28 @@
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+
   <script>
     Reveal.initialize({
+      width: 1280,
+      height: 720,
+      margin: 0.06,
+      minScale: 0.2,
+      maxScale: 1.6,
+
       hash: true,
-      slideNumber: true,
+      slideNumber: "c/t",
       controls: true,
+      controlsLayout: "bottom-right",
+      controlsTutorial: false,
       progress: true,
       center: true,
-      transition: 'slide',
+
+      navigationMode: "default",
+      transition: "slide",
+      transitionSpeed: "default",
+      backgroundTransition: "fade",
+
       plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
     });
   </script>
