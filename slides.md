@@ -367,10 +367,10 @@ ng serve --open
 <div class="content-narrow text-left">
 
 **"Angular is too hard to learn."**
-It takes time, but it pays off. You are learning universal software concepts (like DI and structured architecture) that make you a better overall developer.
+It takes time, but it pays off. You are learning universal software concepts that make you a better overall developer.
 
 **"Angular is slow and bloated."**
-Modern Angular (especially recent versions) is incredibly fast. Tools like standalone components and new change detection mechanisms make it smaller and faster than ever.
+Modern Angular is incredibly fast. Tools like standalone components and new change detection mechanisms make it smaller and faster than ever.
 
 **"It changes too much."**
 While updating used to be painful years ago, the Angular team now provides automated update commands (`ng update`) that heavily reduce friction.
@@ -402,3 +402,10 @@ While updating used to be painful years ago, the Angular team now provides autom
   
   </div>
 </div>
+
+
+---
+
+## Thank you!
+
+### Questions?
