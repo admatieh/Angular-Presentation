@@ -403,9 +403,3 @@ While updating used to be painful years ago, the Angular team now provides autom
   </div>
 </div>
 
-
----
-
-## Thank you!
-
-### Questions?
